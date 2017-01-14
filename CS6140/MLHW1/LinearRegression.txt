@@ -1,0 +1,175 @@
+CS6140: Machine Learning HW1
+Akash Kadam 
+
+Linear Regression Ouptut Report
+
+C:\Users\Akash\Anaconda3\python.exe C:/Users/Akash/PycharmProjects/MachineLearningAssignments/linearRegression(9).py
+Maximum degree of Basis Function = 2
+
+optimal lambda: 0.1
+Training Error = 285.381929022
+Training with 2 folds
+Optimal weight vector =
+[[ 0.10929732 -0.41504962  1.69346726]]
+Testing error = 74.8090920766
+
+optimal lambda: 0.1
+Training Error = 95.437003578
+Training with 5 folds
+Optimal weight vector =
+[[ 0.32077646  0.07610528  1.18310692]]
+Testing error = 58.4905179492
+
+optimal lambda: 0.1
+Training Error = 50.141692051
+Training with 10 folds
+Optimal weight vector =
+[[ 0.43094456  0.18637338  0.87878013]]
+Testing error = 57.184695229
+
+optimal lambda: 0.1
+Training Error = 6.07594789765
+Training with 80 folds
+Optimal weight vector =
+[[ 0.20171449  0.42637834  1.31935848]]
+Testing error = 60.5200071639
+
+
+Maximum degree of Basis Function = 5
+
+optimal lambda: 0.001
+Training Error = 200.583344538
+Training with 2 folds
+Optimal weight vector =
+[[ 2.20788861 -1.60819656 -6.99471876  1.66786176  4.15859877 -0.30507241]]
+Testing error = 40.7956813998
+
+optimal lambda: 0.017
+Training Error = 47.0372111566
+Training with 5 folds
+Optimal weight vector =
+[[ 2.0804175  -1.82227516 -6.54507884  2.30490328  3.86424932 -0.49562272]]
+Testing error = 33.0680008121
+
+optimal lambda: 0.006
+Training Error = 24.4179284996
+Training with 10 folds
+Optimal weight vector =
+[[ 2.12978802 -2.03669412 -6.51692679  2.92376799  3.70113786 -0.70052092]]
+Testing error = 29.8010370303
+
+optimal lambda: 0.001
+Training Error = 2.96258091564
+Training with 80 folds
+Optimal weight vector =
+[[ 2.23068601 -1.59843819 -6.8868357   1.66615889  3.99948451 -0.0856778 ]]
+Testing error = 35.3891937459
+
+
+Maximum degree of Basis Function = 10
+
+optimal lambda: 0.001
+Training Error = 0.0369830461578
+Training with 2 folds
+Optimal weight vector =
+[[ 1.1986054  -1.86653096 -0.33647266  1.93984585  0.20765607  0.19549461
+  -0.31758726 -0.15817642 -2.00758601  0.03041931  1.15475448]]
+Testing error = 0.000443060525704
+
+optimal lambda: 0.001
+Training Error = 0.00017834171177
+Training with 5 folds
+Optimal weight vector =
+[[ 1.20080474 -1.88344192 -0.33303339  2.02366998  0.15301024  0.06945194
+  -0.22075332 -0.08587855 -2.06646033  0.01646361  1.16644366]]
+Testing error = 0.000166783110744
+
+optimal lambda: 0.001
+Training Error = 7.55347291207e-05
+Training with 10 folds
+Optimal weight vector =
+[[ 1.20094372 -1.88504301 -0.33139229  2.03156384  0.14535215  0.05624264
+  -0.20893974 -0.07709164 -2.07397672  0.01452945  1.16806589]]
+Testing error = 0.000159964398108
+
+optimal lambda: 0.001
+Training Error = 8.09300505003e-06
+Training with 80 folds
+Optimal weight vector =
+[[ 1.2009809  -1.88604057 -0.33127664  2.03896222  0.13827444  0.04579455
+  -0.19574148 -0.07198327 -2.08207203  0.01373153  1.16968929]]
+Testing error = 0.000121208194988
+
+
+Maximum degree of Basis Function = 20
+
+optimal lambda: 0.001
+Training Error = 0.00192383428399
+Training with 2 folds
+Optimal weight vector =
+[[ 1.19174408 -1.85093289 -0.20773748  1.80988323 -0.12741311  0.44362491
+  -0.59517955 -0.17105791 -0.52842728 -0.17281639 -0.1574094   0.00616179
+   0.16864107  0.09092617  0.20515713  0.02048906 -0.00602834 -0.04529828
+  -0.05259597  0.0108582   0.01273192]]
+Testing error = 0.000197137891376
+
+optimal lambda: 0.001
+Training Error = 0.000254613347823
+Training with 5 folds
+Optimal weight vector =
+[[  1.19574420e+00  -1.86772766e+00  -2.43961250e-01   1.89106863e+00
+   -3.27702080e-02   3.48641435e-01  -6.42907589e-01  -2.00261778e-01
+   -6.02710044e-01  -1.23028952e-01  -1.43848704e-01   6.07976221e-02
+    2.48418298e-01   7.45793772e-02   2.21121710e-01  -4.78682599e-02
+   -1.02513345e-01   3.87329260e-03   2.21813176e-03   1.36137831e-03
+    3.27886537e-03]]
+Testing error = 0.000121990343739
+
+optimal lambda: 0.001
+Training Error = 0.000104510690569
+Training with 10 folds
+Optimal weight vector =
+[[  1.19574894e+00  -1.86877461e+00  -2.44729773e-01   1.89940367e+00
+   -2.35494742e-02   3.41486979e-01  -6.53353532e-01  -2.09271393e-01
+   -6.09723846e-01  -1.19388060e-01  -1.38687317e-01   7.05852199e-02
+    2.56804922e-01   7.49430517e-02   2.20315934e-01  -5.80797245e-02
+   -1.10828586e-01   9.75715446e-03   7.22978433e-03   3.67550622e-04
+    2.42372448e-03]]
+Testing error = 0.000111877176374
+
+optimal lambda: 0.001
+Training Error = 9.94893931284e-06
+Training with 80 folds
+Optimal weight vector =
+[[  1.19567305e+00  -1.87089313e+00  -2.47090987e-01   1.91224580e+00
+   -9.97797880e-03   3.28273951e-01  -6.64944444e-01  -2.19618819e-01
+   -6.19790835e-01  -1.12026397e-01  -1.34270761e-01   8.50825389e-02
+    2.69581013e-01   7.44265418e-02   2.21911755e-01  -7.64632758e-02
+   -1.27118488e-01   2.16523796e-02   1.69577266e-02  -1.83525786e-03
+    6.96819800e-04]]
+Testing error = 9.94627130494e-05
+
+
+
+
+
+
+
+Logistic Regression Output Report
+
+Weight Vector Class 0
+[[-0.66932453  0.84591873]]
+
+Weight Vector Class 1
+[[ 5.66644785  0.15658155]]
+
+Weight Vector Class 2
+[[-2.0576405  -4.64364251]]
+
+Training Data Report
+Error 6 from 189
+0.968253968254
+
+Testing Data Report
+Error 1 from 21
+0.952380952381

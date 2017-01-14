@@ -1,0 +1,16 @@
+Weight Vector Class 0
+[[-0.66932453  0.84591873]]
+
+Weight Vector Class 1
+[[ 5.66644785  0.15658155]]
+
+Weight Vector Class 2
+[[-2.0576405  -4.64364251]]
+
+Training Data Report
+Error 6 from 189
+0.968253968254
+
+Testing Data Report
+Error 1 from 21
+0.952380952381
